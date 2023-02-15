@@ -4,30 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Titulo y Parrafo</title>
+    <title>multimedia y tablas</title>
   </head>
-  <body style="background-color: #efefef;">
-    <h1 style="text-align: center;">Etiquetas Html</h1>
-    <h2 style="text-align: center;">Etiquetas de titulo</h2>
-    <h1>"h1"-- esto es un titulo nivel 1</h1>
-    <h2>"h2"-- Esto es un titulo nivel 2</h2>
-    <h3>"h3"-- Esto es un titulo nivel 3</h3>
-    <h4>"h4"-- Esto es un titulo nivel 4</h4>
-    <h5>"h5"-- Esto es un titulo nivel 5</h5>
-    <h6>"h6"-- Esto es un titulo nivel 6</h6>
-    <h2 style="text-align: center;">Etiquetas de parrafos</h2>
-    <p><strong><'p'> y <"/p"></strong>---(la de cierre es opcional).</p>
-    <p><strong><'pre'> y <'pre'/></strong>---representa texto El texto en este elemento típicamente se muestra en una fuente <pre style="color:red">fija</pre> , no proporcional, exactamente como es mostrado en el archivo. Los espacios dentro de este elemento también son mostrados como están escritos.</p>
-    <p><strong><'a'></strong>---crea un <a href="">enlace</a> a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL.</p>
-    <p><strong><'b'></strong>--bold=<b>negrita</b>.</p>
-    <p><strong><'bdi'></strong>---aisla un trozo de texto para que pueda ser <bdi>formateado</bdi> con una dirección diferente al texto que hay fuera de él.</p>
-    <p><strong><'br'></strong>---produce un salto de línea en el texto (retorno de carro). <br> Es útil para escribir un poema o una dirección, donde la división de las líneas es significante.</p>
-    <p><strong><'em'></strong>--- es el apropiado para marcar con énfasis las partes <em>importantes</em> de un texto</p>
-    <p><strong><'mark'></strong>--- representa un texto <mark>marcado o resaltado</mark> como referencia o anotación, debido a su relevancia o importancia en un contexto particular.</p>
-    <p><strong><'p'></strong>---  indica que el texto adjunto es una cita corta en línea.</p>
-    <p><strong><'samp'></strong>--- se utiliza para incluir texto en línea que representa una <samp>muestra (o cita)</samp> de la salida de un programa de ordenador.</p>
-    <p><strong><'small'></strong>--- hace el tamaño del texto una talla <small>más pequeña </small> (por ejemplo, de largo a mediano, o de pequeño a extra pequeño) que el tamaño mínimo de fuente del navegador.</p>
-    <p><strong><'sub'></strong>--- define un fragmento de texto <sub>que se debe mostrar,</sub>  por razones tipográficas, más bajo, y generalmente más pequeño, que el tramo principal del texto, es decir, en subíndice.</p>
-    <p><strong><'strong'></strong>--- mostrar en <strong>negrilla</strong>  una parte del texto</p>
+  <body style="background-color: #efefef">
+    <h1 style="text-align: center">Etiquetas Html</h1>
+    <h2 style="text-align: center">Etiquetas de imagen y multimedia</h2>
+    <p>
+      <strong><'audio'></strong>---El elemento audio se usa para insertar
+      contenido de audio en un documento
+      <audio controls>
+        <source src="./assets/DragonBall.mp3" type="audio/mp3" />
+      </audio>
+    </p>
+    <p>
+      <strong><'img'></strong>--- representa una imagen en el documento
+      <img style="width: 70px; height: 70px" src="./assets/html5.png" alt="" />
+    </p>
+    <p>
+      <strong><'track'></strong>---se utiliza como elemento hijo de los
+      elementos multimedia, audio y video. Le permite especificar pistas de
+      texto cronometradas (o datos basados en el tiempo), por ejemplo, para
+      manejar subtítulos automáticamente.
+    </p>
+    <p>
+      <strong><'video'></strong>---se utiliza para incrustar vídeos en un
+      documento HTML o XHTML.<video controls width="250px" height="250px">
+        <source src="./assets/DragonBall.mp4" type="video/mp4" />
+      </video>
+    </p>
+
+    <h2 style="text-align: center">Etiquetas Tablas</h2>
+    <p>
+      <strong><'table'></strong>---representa datos en dos o mas dimensiones.
+    </p>
+    <p>
+      <strong><'td'></strong>--- define la celda de una tabla que contiene
+      datos. Esta participa en el modelo de tablas
+    </p>
+    <p>
+      <strong><'th'></strong>---define una celda como encabezado de un grupo de
+      celdas en una tabla.
+    </p>
+    <p>
+      <strong><'tr'></strong>---define una fila de celdas en una tabla. Estas
+      pueden ser una mezcla de elementos td y th.
+    </p>
+    <p>
+      <strong><'col'></strong>---Permite especificar propiedades para una
+      columna o un grupo de ellas.
+    </p>
   </body>
 </html>
